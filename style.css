@@ -143,7 +143,7 @@
     }
 }
 
-/* ESERCIZIO 12 */
+/* STYLE ESERCIZIO 12 E 13 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -157,6 +157,7 @@
     text-align: center;
     text-decoration: none;
 }
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -173,3 +174,52 @@
     width: 60px;
     height: 20px;
 }
+
+
+/* ESERCIZIO 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: test-rotation 2s linear;
+}
+
+/* .ex-12-top-white {
+    animation: test-rotation 2s linear;
+} */
+
+@keyframes test-rotation {
+    0% {
+        /* top: 0; */
+        /* left: 20%; */
+        left: 10%;
+    }
+    
+    50% {
+        left: calc(100% - 70px);
+    }
+
+    100% {
+        /* top: 0; */
+        left: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: test-rotation2 2s linear;
+}
+
+@keyframes test-rotation2 {
+    0% {
+        /* top: 0; */
+        right: 20%;
+    }
+    
+    50% {
+        right: calc(100% - 70px);
+    }
+
+    100% {
+        /* top: 0; */
+        right: 20%;
+    }
+}
+
+/* ESERCIZIO 13 */
