@@ -64,7 +64,7 @@
 }
 
 /* ESERCIZIO 6 */
-.ex-6-img, .ex-7-img, .ex-8-img {
+.ex-6-img, .ex-8-img {
     width: 500px;
 }
 
@@ -73,6 +73,14 @@
 }
 
 /* ESERCIZIO 7 */
+.ex-7-img {
+    width: 500px;
+    transition: 1.5s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1);
+}
 /* ESERCIZIO 8 */
 /* ESERCIZIO 1 */
 .ex-9-img {
