@@ -126,8 +126,24 @@
 /* ESERCIZIO 11 */
 .ex-11-icon {
     font-size: 60px;
+    animation: loading2 2s linear;
 }
-/* ESERCIZIO 1 */
+
+@keyframes loading2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* ESERCIZIO 12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
